@@ -1,0 +1,13 @@
+Assignment Task
+
+You are required to replicate the linear regression process using a different dataset (e.g., housing prices, salary prediction, etc.). Your task includes:
+
+Performing simple and multiple linear regression
+
+Evaluating your model
+
+Visualizing your results
+
+Submitting your Jupyter notebook or PDF
+
+Make sure to understand each step and use this notebook as a reference guide.
