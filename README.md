@@ -1,7 +1,3 @@
-Absolutely! Here's a tailored `README.md` structure specifically for your **Linear Regression lecture**, following the format you mentioned and keeping it clean and professional:
-
----
-
 # 📘 Data Science Lectures with Python
 
 This repository contains a complete series of lectures focused on **Data Science and Machine Learning** using Python. Each lecture covers both **theoretical concepts** and **hands-on implementation** using real-world datasets. Designed for students and beginners, this series provides weekly learning materials, coding tasks, and project-based learning opportunities.
