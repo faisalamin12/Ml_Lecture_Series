@@ -94,7 +94,3 @@ Data-Science-Lectures-with-Python/
 │
 └── README.md
 ```
-
----
-
-Let me know if you'd like a pre-made `README.md` file to upload directly to your repo!
