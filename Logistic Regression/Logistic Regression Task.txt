@@ -1,0 +1,8 @@
+Objective: Apply logistic regression to a new dataset.
+
+Choose a binary classification dataset from Kaggle or UCI (e.g., Titanic, Pima Indians Diabetes).
+Perform EDA (Exploratory Data Analysis).
+Preprocess the data (handle missing values, encode categories, normalize if needed).
+Implement logistic regression.
+Evaluate the model using confusion matrix, precision, recall, F1-score, and ROC curve.
+Interpret the coefficients.
