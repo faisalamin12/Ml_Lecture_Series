@@ -1,81 +1,101 @@
-# 📘 Data Science Lectures with Python
+📘 Data Science Lectures with Python
 
-This repository contains a complete series of lectures focused on **Data Science and Machine Learning** using Python. Each lecture covers both **theoretical concepts** and **hands-on implementation** using real-world datasets. Designed for students and beginners, this series provides weekly learning materials, coding tasks, and project-based learning opportunities.
+This repository contains a complete series of lectures focused on Data Science and Machine Learning using Python. Each lecture covers both theoretical concepts and hands-on implementation using real-world datasets. Designed for students and beginners, this series provides weekly learning materials, coding tasks, and project-based learning opportunities.
 
----
+📋 Lecture List & Status
 
-## 📋 Lecture List & Status
+No.
 
-| No. | Lecture Title       | Status        |
-| --- | ------------------- | ------------- |
-| 01  | Linear Regression   | ✅ Completed   |
-| 02  | Logistic Regression | ⏳ Coming Soon |
-| 03  | Decision Tree       | ⏳ Coming Soon |
-| 04  | Random Forest       | ⏳ Coming Soon |
-| ... | ...                 | ...           |
+Lecture Title
 
----
+Status
 
-## 📦 Installation Requirements
+01
+
+Linear Regression
+
+✅ Completed
+
+02
+
+Logistic Regression
+
+✅ Completed
+
+03
+
+Decision Tree
+
+⏳ Coming Soon
+
+04
+
+Random Forest
+
+⏳ Coming Soon
+
+...
+
+...
+
+...
+
+📦 Installation Requirements
 
 To run the notebooks in this repository, make sure the following packages are installed:
 
-```bash
-pip install numpy pandas matplotlib scikit-learn jupyter
-```
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 
-Or you can use the `requirements.txt` (to be added soon):
+Or use the requirements.txt (coming soon):
 
-```bash
 pip install -r requirements.txt
-```
 
----
+📥 How to Use
 
-## 📥 How to Use
+Clone the repository:
 
-1. Clone the repository:
+git clone https://github.com/yourusername/Data-Science-Lectures-with-Python.git
 
-   ```bash
-   git clone https://github.com/yourusername/Data-Science-Lectures-with-Python.git
-   ```
+Navigate to a lecture folder (e.g., Logistic Regression):
 
-2. Navigate to the folder:
+cd Data-Science-Lectures-with-Python/02_Logistic_Regression
 
-   ```bash
-   cd Data-Science-Lectures-with-Python/01_Linear_Regression
-   ```
+Open the notebook:
 
-3. Open the notebook:
+jupyter notebook Logistic_Regression_Lecture.ipynb
 
-   ```bash
-   jupyter notebook Linear_Regression_Lecture.ipynb
-   ```
+📚 Tasks for Students
 
----
+✅ Linear Regression Task
 
-## 📚 Task for Students
+Select a dataset (e.g., house prices, salary prediction)
 
-🔹 Your task is to:
+Apply simple and multiple linear regression
 
-* Select a new dataset (e.g., house prices, car prices, salary prediction)
-* Apply **simple and multiple linear regression**
-* Evaluate your model using metrics like MSE, RMSE, and R²
-* Visualize your regression line and residuals
+Evaluate using MSE, RMSE, and R²
 
-📤 **Upload your completed work to your GitHub profile** with proper documentation.
+Visualize regression line and residuals
 
----
+✅ Logistic Regression Task
 
-## 🙌 Contribution Guidelines (Optional)
+Select a binary classification dataset (e.g., Titanic, Pima Diabetes)
+
+Perform EDA, preprocessing
+
+Train logistic regression model
+
+Evaluate using confusion matrix, F1-score, ROC Curve
+
+Interpret coefficients and make observations
+
+📄 Submit your work as a Jupyter Notebook on your GitHub profile with clean documentation.
+
+👌 Contribution Guidelines (Optional)
 
 If you'd like to contribute additional lectures or improvements, feel free to fork the repo and create a pull request. Contributions are welcome!
 
----
+🧱 Folder Structure
 
-## 🧱 Folder Structure
-
-```
 Data-Science-Lectures-with-Python/
 │
 ├── 01_Linear_Regression/
@@ -86,7 +106,13 @@ Data-Science-Lectures-with-Python/
 │       └── diabetes.csv
 │
 ├── 02_Logistic_Regression/
-│   └── (Coming Soon)
+│   ├── Logistic_Regression_Lecture.ipynb
+│   ├── Logistic_Regression_Lecture.pdf
+│   ├── Task_Instructions.txt
+│   └── dataset/
+│       └── breast_cancer.csv (optional)
 │
 └── README.md
-```
+
+Stay tuned for more weekly lectures and updates!
+
