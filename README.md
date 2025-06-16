@@ -1,7 +1,3 @@
-Great! Here's your **updated README content** ready to copy and paste:
-
----
-
 ````markdown
 # 📘 Data Science Lectures with Python
 
