@@ -1,0 +1,8 @@
+Use this dataset: Heart Disease UCI
+
+Tasks:
+
+EDA and preprocessing
+Train SVM (linear & RBF)
+Use GridSearchCV
+Report: Accuracy, confusion matrix, ROC-AUC, F1-score
