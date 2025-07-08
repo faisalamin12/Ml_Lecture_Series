@@ -1,3 +1,6 @@
+---
+
+````markdown
 # 📘 Data Science Lectures with Python
 
 This repository contains a complete series of lectures focused on **Data Science and Machine Learning** using Python. Each lecture covers both **theoretical concepts** and **hands-on implementation** using real-world datasets. Designed for students and beginners, this series provides weekly learning materials, coding tasks, and project-based learning opportunities.
@@ -11,7 +14,7 @@ This repository contains a complete series of lectures focused on **Data Science
 | 01  | Linear Regression   | ✅ Completed   |
 | 02  | Logistic Regression | ✅ Completed   |
 | 03  | Support Vector Machine (SVM) | ✅ Completed   |
-| 04  | Decision Tree       | ⏳ Coming Soon |
+| 04  | Decision Tree       | ✅ Completed   |
 | 05  | Random Forest       | ⏳ Coming Soon |
 
 ---
@@ -22,7 +25,7 @@ To run the notebooks in this repository, make sure the following packages are in
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter
-```
+````
 
 Or use the `requirements.txt` (coming soon):
 
@@ -40,16 +43,16 @@ pip install -r requirements.txt
    git clone https://github.com/yourusername/Data-Science-Lectures-with-Python.git
    ```
 
-2. Navigate to a lecture folder (e.g., SVM):
+2. Navigate to a lecture folder (e.g., Decision Tree):
 
    ```bash
-   cd Data-Science-Lectures-with-Python/03_SVM
+   cd Data-Science-Lectures-with-Python/04_Decision_Tree
    ```
 
 3. Open the notebook:
 
    ```bash
-   jupyter notebook SVM_Lecture_Detailed.ipynb
+   jupyter notebook Decision_Trees_Lecture.ipynb
    ```
 
 ---
@@ -57,12 +60,14 @@ pip install -r requirements.txt
 ## 📚 Topics Covered
 
 ### ✅ Linear Regression Lecture
+
 * Simple vs. Multiple Linear Regression
 * Cost Function (MSE)
 * Model Training & Evaluation (R², RMSE)
 * Data Visualization & Residual Analysis
 
 ### ✅ Logistic Regression Lecture
+
 * Binary Classification & Sigmoid Function
 * Cross-Entropy Loss & Gradient Descent
 * Regularization (L1, L2)
@@ -72,6 +77,7 @@ pip install -r requirements.txt
 * Hands-on: Breast Cancer Dataset
 
 ### ✅ Support Vector Machines (SVM) Lecture
+
 * Linear vs. Non-Linear Classification
 * Margin Maximization & Hyperplane
 * Soft Margin and Regularization (C)
@@ -79,26 +85,44 @@ pip install -r requirements.txt
 * Hyperparameter Tuning (GridSearchCV)
 * Hands-on: Breast Cancer Dataset
 
+### ✅ Decision Tree Lecture
+
+* Classification vs. Regression Trees
+* Gini Impurity, Entropy, and MSE as splitting criteria
+* Tree Depth, Overfitting, and Pruning
+* Tree Visualization and Interpretation
+* Hands-on: Titanic Dataset (Classification), California Housing Dataset (Regression)
+
 ---
 
 ## 📃 Tasks for Students
 
 ### Linear Regression Task
+
 * Select a regression dataset (e.g., house prices)
 * Apply linear regression and evaluate performance
 * Visualize results and explain findings
 
 ### Logistic Regression Task
+
 * Choose a binary classification dataset (e.g., Titanic, Pima Diabetes)
 * Perform EDA, preprocess, and train logistic regression model
 * Evaluate using classification metrics & ROC Curve
 * Interpret model coefficients
 
 ### SVM Task
+
 * Use a binary classification dataset (e.g., Heart Disease)
 * Compare linear vs. RBF SVM models
 * Apply GridSearchCV for hyperparameter tuning
 * Evaluate with confusion matrix, precision, recall, F1-score
+
+### Decision Tree Task
+
+* Use the Heart Disease dataset from Kaggle
+* Train a decision tree classifier
+* Tune `max_depth` and interpret the visualized tree
+* Evaluate using accuracy and explain important features
 
 📄 **Submit your Jupyter Notebook on GitHub with proper documentation**
 
@@ -135,6 +159,13 @@ Data-Science-Lectures-with-Python/
 │   ├── Task_Instructions.txt
 │   └── dataset/
 │       └── heart_disease.csv
+│
+├── 04_Decision_Tree/
+│   ├── Decision_Trees_Lecture.ipynb
+│   ├── Decision_Trees_Lecture.pdf (optional)
+│   ├── Task_Instructions.txt
+│   └── dataset/
+│       └── heart_disease.csv (assignment dataset)
 │
 └── README.md
 ```
