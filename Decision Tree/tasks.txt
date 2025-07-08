@@ -1,0 +1,11 @@
+Dataset: https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci
+
+Instructions:
+Load and preprocess the dataset.
+Train a Decision Tree Classifier to predict heart disease.
+Use train_test_split.
+Fit a model with different max_depth values and compare accuracy.
+Visualize the tree.
+Explain:
+Which features were important?
+Did deeper trees help?
