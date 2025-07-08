@@ -1,5 +1,3 @@
----
-
 ````markdown
 # 📘 Data Science Lectures with Python
 
